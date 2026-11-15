@@ -36,11 +36,4 @@ permalink: /research/
 </div>
 </div>
 
-<div class="research-card">
-<div class="research-body">
-<h2 class="research-title">Blockchain and Zero-Knowledge Proofs for Genomic Data</h2>
-<p class="research-desc">A literature review on how blockchains and <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof" target="_blank" rel="noopener">zero-knowledge proofs</a> can be used to share genomic data between several parties while protecting the people behind the data. In progress.</p>
-</div>
-</div>
-
 </div>

@@ -14,7 +14,6 @@ permalink: /
 <a href="{{ '/research' | relative_url }}" class="chip">Autonomic Networks</a>
 <a href="{{ '/research' | relative_url }}" class="chip">Network Operations</a>
 <a href="{{ '/research' | relative_url }}" class="chip">SDN</a>
-<a href="{{ '/research' | relative_url }}" class="chip">Blockchain &amp; ZKP</a>
 </div>
 
 I'm a Master 2 student in [Computer and Network Systems, Network Systems track](https://www.universite-paris-saclay.fr/en/education/master/computer-science/m2-computer-and-network-systems-cns-systemes-en-reseau-sr) at [Université d'Évry Paris-Saclay](https://www.univ-evry.fr/).
