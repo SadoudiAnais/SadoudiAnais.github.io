@@ -1,31 +1,31 @@
 # ============================================================
 # STEP 1: Your Identity (required)
 # ============================================================
-name: "Richard Feynman"
-title: "Professor of Physics"
-institution: "California Institute of Technology"
-email: richard@university.edu
-photo: headshot.jpg  # place your photo in images/
+name: "Anais Sadoudi"
+title: "M2 Student in Computer and Network Systems"
+institution: "Université d'Évry Paris-Saclay"
+email: sadoudianais11@gmail.com  # TODO: your public email
+photo: images/avatar.jpeg  # TODO: replace images/avatar.jpg with your photo (square)  # your photo in images/
 
 # ============================================================
 # STEP 2: Your Links (optional -- leave blank to hide an icon)
 # ============================================================
 links:
-  google_scholar: "https://scholar.google.com/citations?user=B7vSqZsAAAAJ"
-  github: "https://github.com/"
-  researchgate: "https://www.researchgate.net/"
+  google_scholar: ""  # TODO if you create a Google Scholar profile
+  github: "https://github.com/SadoudiAnais"
+  researchgate: ""
   orcid: ""
   twitter: ""
-  linkedin: ""
-  cv: ""  # e.g., "papers/cv.pdf"
+  linkedin: "www.linkedin.com/in/anais-sadoudi-396584268"  # TODO: your LinkedIn URL
+  cv: ""  # TODO: put your CV in papers/cv.pdf and set "papers/cv.pdf"
 
 # ============================================================
 # STEP 3: Site Settings
 # ============================================================
-accent_color: "#1a7a6d"      # theme color; light and dark variants are derived automatically
+accent_color: "#7a3e9d"      # theme color; light and dark variants are derived automatically
 dark_mode: true              # set to false to disable dark mode entirely
 math: false                  # true loads MathJax on every page; or add `math: true` to individual pages
-description: "Academic webpage of Dr. Richard Feynman"
+description: "Academic webpage of Anais Sadoudi, M2 student at Université d'Évry Paris-Saclay working on LLM-based multi-agent systems for IoT and network orchestration"
 
 # When deploying with the included GitHub Actions workflow these are filled
 # in automatically from your Pages settings (user site, project site, or
@@ -52,9 +52,10 @@ nav_pages:
   - name: talks
   - name: research
   - name: software
-  - name: team
-  - name: teaching
-  - name: blog
+    label: Projects
+  # - name: team
+  # - name: teaching
+  # - name: blog
 
 # ============================================================
 # STEP 5: Publications (assets/ref.bib)
@@ -62,8 +63,8 @@ nav_pages:
 # Your name is bolded in the publication list. Write it exactly as it
 # appears in the rendered list ("Last, F. M."); list the longest form first.
 scholar:
-  last_name: Feynman
-  first_name: ["R. P.", "R."]
+  last_name: Sadoudi
+  first_name: ["A."]
   style: citesty
   locale: en
   source: /assets/
@@ -77,7 +78,7 @@ scholar:
   bibliography_list_attributes:
     reversed: "reversed"
   # Template-only fields, kept out of the copyable BibTeX
-  bibtex_skip_fields: [abstract, month_numeric, file, selected, code, slides, video, poster, data]
+  bibtex_skip_fields: [abstract, month_numeric, file, pdf, selected, code, slides, video, poster, data]
 
 # ============================================================
 # Advanced Settings (you probably don't need to change these)

@@ -6,53 +6,40 @@ permalink: /research/
 
 # Research
 
-<div class="research-grid">
+<div class="research-grid" markdown="0">
 
 <div class="research-card">
-<img src="{{ '/images/research/qed.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Feynman diagram">
 <div class="research-body">
-<h2 class="research-title">Quantum Electrodynamics</h2>
-<p class="research-desc">Development of the path integral formulation of quantum mechanics and its application to quantum electrodynamics (QED). This work introduced Feynman diagrams as a powerful tool for calculating particle interactions, providing an intuitive visual representation of complex quantum processes.</p>
+<h2 class="research-title">Language Agents for IoT Orchestration</h2>
+<p class="research-desc"><a href="https://llmthings.github.io/demo/" target="_blank" rel="noopener">LLMThings</a> is a platform where LLM agents (<a href="https://www.crewai.com/" target="_blank" rel="noopener">CrewAI</a>) turn user intents expressed in natural language into actions on IoT devices, through an <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP</a> server and <a href="https://mqtt.org/" target="_blank" rel="noopener">MQTT</a>, with semantic routing of requests. Research internship at <a href="https://www.ibisc.univ-evry.fr/" target="_blank" rel="noopener">IBISC</a> with Dr. Massinissa Hamidi and Huyen-Trang Le. Best Presentation Award at <a href="https://jdse2026.github.io/program/" target="_blank" rel="noopener">JDSE 2026</a>.</p>
+<div class="pub-actions">
+<a href="https://llmthings.github.io/demo/" target="_blank" rel="noopener" class="btn-pill btn-website">Demo</a>
+<a href="https://jdse2026.github.io/slides/Oral_pres/13_SADOUDI_LLMThings.pdf" target="_blank" rel="noopener" class="btn-pill btn-slides">Slides</a>
 </div>
-</div>
-
-<div class="research-card">
-<img src="{{ '/images/research/superfluidity.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Superfluid helium">
-<div class="research-body">
-<h2 class="research-title">Superfluidity</h2>
-<p class="research-desc">Quantum mechanical explanation of the behavior of liquid helium near absolute zero. Using path integral methods, we developed a microscopic theory of the lambda transition and explained the energy spectrum of excitations in superfluid helium, including the roton minimum.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/partons.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Parton model">
 <div class="research-body">
-<h2 class="research-title">Parton Model</h2>
-<p class="research-desc">A model describing the internal structure of hadrons in terms of point-like constituents called partons. This framework proved essential for interpreting deep inelastic scattering experiments at SLAC and laid the groundwork for quantum chromodynamics (QCD).</p>
+<h2 class="research-title">Multi-Agent Collaboration for IoT Orchestration</h2>
+<p class="research-desc">My M2 R&amp;D project (2026–2027), in continuation of LLMThings: how several LLM agents can share tasks, coordinate and recover from failures when orchestrating heterogeneous IoT systems. Supervised by Dr. Massinissa Hamidi.</p>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/quantum-computing.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Quantum circuit">
 <div class="research-body">
-<h2 class="research-title">Quantum Computing</h2>
-<p class="research-desc">Pioneering proposals for using quantum mechanical systems to perform computation. We demonstrated that classical computers cannot efficiently simulate quantum physics, motivating the development of quantum computers that exploit superposition and entanglement.</p>
+<h2 class="research-title">LLM Agents for Network Operations</h2>
+<p class="research-desc">Towards <a href="https://en.wikipedia.org/wiki/Autonomic_networking" target="_blank" rel="noopener">autonomic networks</a>: using LLM agents to diagnose faults and act on network configurations. NetOps Agent connects a CrewAI agent through MCP to a virtualised network (<a href="https://containerlab.dev/" target="_blank" rel="noopener">containerlab</a>, <a href="https://frrouting.org/" target="_blank" rel="noopener">FRR</a>). Personal project, in progress.</p>
+<div class="pub-actions">
+<a href="https://github.com/SadoudiAnais/netops-agent" target="_blank" rel="noopener" class="btn-pill btn-git">GitHub</a>
+</div>
 </div>
 </div>
 
 <div class="research-card">
-<img src="{{ '/images/research/nanotechnology.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Atomic manipulation">
 <div class="research-body">
-<h2 class="research-title">Nanotechnology</h2>
-<p class="research-desc">Exploration of the physical possibilities of manipulating matter at the atomic scale. The talk "There's Plenty of Room at the Bottom" envisioned machines that could arrange atoms one by one, anticipating modern nanotechnology and molecular manufacturing.</p>
-</div>
-</div>
-
-<div class="research-card">
-<img src="{{ '/images/research/weak-interactions.svg' | relative_url }}" class="research-thumb" width="400" height="200" alt="Weak interaction diagram">
-<div class="research-body">
-<h2 class="research-title">Weak Interactions</h2>
-<p class="research-desc">Development of the V-A theory of the weak interaction with Murray Gell-Mann. This theory correctly predicted the structure of weak decays and was later incorporated into the electroweak unification by Weinberg, Salam, and Glashow.</p>
+<h2 class="research-title">Blockchain and Zero-Knowledge Proofs for Genomic Data</h2>
+<p class="research-desc">A literature review on how blockchains and <a href="https://en.wikipedia.org/wiki/Zero-knowledge_proof" target="_blank" rel="noopener">zero-knowledge proofs</a> can be used to share genomic data between several parties while protecting the people behind the data. In progress.</p>
 </div>
 </div>
 

@@ -1,21 +1,44 @@
-# Software projects, shown on the Software page in the order listed.
+# Projects, shown on the Projects page in the order listed.
 # Each entry needs: name, description
-# Optional: authors, website, repo, docs, paper
+# Optional: authors, website, repo, docs, paper, program, slides
 
-- name: Path Integral Monte Carlo
-  authors: R. P. Feynman, A. Hibbs
-  website: https://example.com
-  repo: https://github.com
+- name: "LLMThings: language agents for IoT orchestration"
+  authors: A. Sadoudi, H.-T. Le, M. Hamidi (IBISC)
+  website: https://llmthings.github.io/demo/
+  slides: https://jdse2026.github.io/slides/Oral_pres/13_SADOUDI_LLMThings.pdf
   description: >-
-    A Monte Carlo simulation code for computing quantum mechanical path integrals
-    in many-body systems. Used to study the lambda transition in liquid helium
-    and other quantum statistical mechanics problems.
+    A platform where <a href="https://www.crewai.com/" target="_blank" rel="noopener">CrewAI</a> agents
+    understand user intents in natural language and orchestrate IoT devices (ESP32) over
+    <a href="https://mqtt.org/" target="_blank" rel="noopener">MQTT</a>, through an
+    <a href="https://modelcontextprotocol.io/" target="_blank" rel="noopener">MCP</a> server, with semantic routing
+    of requests. I worked on the agent layer, the Docker deployment, ESP32 networking and the data model
+    for users, agents, crews and sessions. Best Presentation Award at JDSE 2026.
 
-- name: QED Diagram Calculator
-  authors: R. P. Feynman
-  website: https://example.com
-  docs: https://example.com/docs
+- name: "HOPPERS: LLM-based intent orchestration for medical IoT (D4Gen Hackathon 2026)"
+  authors: HOPPERS team
+  website: https://llm-intent-orchestration.vercel.app
   description: >-
-    A tool for systematically enumerating and evaluating Feynman diagrams in
-    quantum electrodynamics calculations, automating the computation of
-    scattering amplitudes to arbitrary order in perturbation theory.
+    Project built for the <a href="https://genopole.agorize.com/en/challenges/d4gen-hackathon-2026" target="_blank" rel="noopener">D4Gen Hackathon 2026</a>
+    organised by <a href="https://www.genopole.fr/" target="_blank" rel="noopener">Genopole</a>: an AI agent lets
+    clinicians state intents in natural language and orchestrates medical IoT devices.
+    I worked on the backend and the infrastructure: FastAPI services and cloud deployment on
+    <a href="https://www.egi.eu/" target="_blank" rel="noopener">EGI</a>.
+
+- name: "ARDA platform (IBISC research internship)"
+  authors: A. Sadoudi, P. Verot; supervised by G. Postic
+  description: >-
+    Web platform developed during my research internship at IBISC (May–July 2026):
+    frontend in React Router v7, TypeScript and Tailwind CSS, team work with Git, deployment with PM2.
+
+- name: "NetOps Agent (in progress)"
+  repo: https://github.com/SadoudiAnais/netops-agent
+  description: >-
+    An LLM agent (CrewAI) that diagnoses network faults. It connects through MCP to a virtualised
+    network built with <a href="https://containerlab.dev/" target="_blank" rel="noopener">containerlab</a> and
+    <a href="https://frrouting.org/" target="_blank" rel="noopener">FRR</a>. Work in progress.
+
+- name: "IoT Secure Dashboard (in progress)"
+  repo: https://github.com/SadoudiAnais/iot-secure-dashboard
+  description: >-
+    An IoT monitoring dashboard over MQTT, secured with TLS and client authentication
+    (Mosquitto). Work in progress.

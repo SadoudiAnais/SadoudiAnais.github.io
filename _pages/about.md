@@ -30,7 +30,30 @@ permalink: /about/
 </div>
 </div>
 
-{% if site.data.grants %}
+{% assign phd = site.data.pi[0].phd %}
+{% if phd %}
+<div class="section-card" markdown="0">
+<h3>PhD Thesis</h3>
+<p><strong>{{ phd.title }}</strong>{% if phd.title_fr %}<br><em>{{ phd.title_fr }}</em>{% endif %}</p>
+{% if phd.summary %}<p>{{ phd.summary }}</p>{% endif %}
+<ul>
+{% if phd.degree %}<li><strong>Degree:</strong> {{ phd.degree }}</li>{% endif %}
+{% if phd.institutions %}<li><strong>Institutions:</strong> {{ phd.institutions }}</li>{% endif %}
+{% if phd.labs %}<li><strong>Laboratories:</strong> {{ phd.labs }}</li>{% endif %}
+{% if phd.doctoral_school %}<li><strong>Doctoral school:</strong> {{ phd.doctoral_school }}</li>{% endif %}
+{% if phd.supervisors and phd.supervisors.size > 0 %}<li><strong>Supervisors:</strong> {{ phd.supervisors | join: ", " }}</li>{% endif %}
+{% if phd.start %}<li><strong>Started:</strong> {{ phd.start }}</li>{% endif %}
+</ul>
+{% if phd.notes or phd.code %}
+<div class="pub-actions">
+{% if phd.notes %}<a href="{{ phd.notes }}" target="_blank" rel="noopener" class="btn-pill btn-link">Learning notes</a>{% endif %}
+{% if phd.code %}<a href="{{ phd.code }}" target="_blank" rel="noopener" class="btn-pill btn-git">GitHub</a>{% endif %}
+</div>
+{% endif %}
+</div>
+{% endif %}
+
+{% if site.data.grants.size > 0 %}
 <div class="section-card">
 <h3>Grants</h3>
 <ul>
@@ -46,13 +69,13 @@ permalink: /about/
 <h3>Awards</h3>
 <ul>
 {% for award in site.data.awards %}
-<li>{{ award.name | replace: "-","&#8211;" }}</li>
+<li>{% if award.url %}<a href="{{ award.url }}" target="_blank" rel="noopener">{{ award.name }}</a>{% else %}{{ award.name }}{% endif %}{% if award.detail %} {{ award.detail }}{% endif %}</li>
 {% endfor %}
 </ul>
 </div>
 {% endif %}
 
-{% if site.data.funders %}
+{% if site.data.funders.size > 0 %}
 <div class="section-card">
 <h4>Sponsors</h4>
 <div class="sponsor-logos" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: var(--space-6);">

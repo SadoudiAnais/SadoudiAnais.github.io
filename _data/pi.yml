@@ -1,11 +1,12 @@
-# Optional: detailed education and bio for the About page.
-# Basic info (name, photo, links) now lives in _config.yml.
-# Delete this file if you only need the basics.
-
-# EXAMPLE -- replace or delete
+# Detailed education for the About page and the home page profile card.
+# Basic info (name, photo, links) lives in _config.yml.
+# Note: hyphens are rendered as en dashes, so names here avoid them.
 - education:
-    - "(1942) Ph.D. Physics, Princeton University"
-    - "(1939) B.S. Physics, Massachusetts Institute of Technology"
+    - "(2026–present) M2 Computer and Network Systems, Network Systems track (CNS SR), Université d'Évry Paris Saclay"
+    - "(2026) M1 Networks and Systems, Université d'Évry Paris Saclay"
+    - "(2023–2025) Bachelor's degree in Computer Science, System and Network Administration track, Université d'Évry Paris Saclay"
+    - "2021-2023: Bachelor's degree in Computer Science, the University of Béjaïa, Algeria"  
   educationshort:
-    - "(1942) Ph.D. Physics, Princeton"
-    - "(1939) B.S. Physics, MIT"
+    - "(2026–) M2 CNS, Univ. Évry Paris Saclay"
+    - "(2026) M1 Networks & Systems, Univ. Évry"
+    - "(2025) BSc Computer Science, Univ. Évry"
