@@ -1,6 +1,6 @@
 # sadoudianais.github.io
 
-Site académique d'Anais Sadoudi, basé sur [academic-website-template](https://github.com/sbryngelson/academic-website-template) (Jekyll, licence MIT), avec la mise en page adaptée de [hazel260802.github.io](https://hazel260802.github.io/).
+Site académique d'Anais Sadoudi, basé sur [academic-website-template](https://github.com/sbryngelson/academic-website-template) (Jekyll, licence MIT).
 
 ## Où modifier quoi
 
